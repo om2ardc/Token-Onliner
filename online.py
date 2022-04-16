@@ -29,7 +29,7 @@ def online(token, game, type, status):
         gamejson = {
             "name": game,
             "type": 1,
-            "url": "https://www.twitch.tv/discord.gg/LilForkTokens"
+            "url": "https://www.twitch.tv/discord"
         }
     elif type == "Listening":
         gamejson = {
@@ -77,12 +77,7 @@ def main():
     types = ['Playing', 'Streaming', 'Watching', 'Listening']
     type = input(f'''
     
-                                         ██████╗ ██████╗  ██████╗██╗  ██╗
-                                        ██╔════╝██╔═══██╗██╔════╝██║ ██╔╝
-                                        ██║     ██║   ██║██║     █████╔╝ 
-                                        ██║     ██║   ██║██║     ██╔═██╗ 
-                                        ╚██████╗╚██████╔╝╚██████╗██║  ██╗
-                                         ╚═════╝ ╚═════╝  ╚═════╝╚═╝  ╚═╝
+                                         █╝  ╚═╝
                                  
 
 
@@ -92,12 +87,7 @@ Your Choice > ''')
     os.system("cls")
     game = input(f'''
     
-                                         ██████╗ ██████╗  ██████╗██╗  ██╗
-                                        ██╔════╝██╔═══██╗██╔════╝██║ ██╔╝
-                                        ██║     ██║   ██║██║     █████╔╝ 
-                                        ██║     ██║   ██║██║     ██╔═██╗ 
-                                        ╚██████╗╚██████╔╝╚██████╗██║  ██╗
-                                         ╚═════╝ ╚═════╝  ╚═════╝╚═╝  ╚═╝
+                                         ██
                                  
 
 
